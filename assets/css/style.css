@@ -1,0 +1,45 @@
+/* Global */
+/* Nav */
+nav {
+  background-color: lightblue;
+  width: 100%;
+  overflow: auto;
+}
+nav a {
+  float: left;
+}
+nav .homeIcon {
+  height: 7rem;
+  width: 7rem;
+  margin-left: 3rem;
+}
+nav ul li {
+  display: inline-block;
+  text-transform: uppercase;
+}
+nav ul li:first-child {
+  margin-left: 65%;
+}
+nav ul li a {
+  margin: 2rem 1rem;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+  color: rgb(18, 177, 124);
+}
+nav ul li .active {
+  border-right: 1px black solid;
+}
+
+/* Nav Design */
+#navStripes {
+  height: 2rem;
+  background: repeating-linear-gradient(
+    45deg,
+    #2d2c2c,
+    #2d2c2c 1rem,
+    #ffffff 1rem,
+    #ffffff 1.5rem
+  );
+}
