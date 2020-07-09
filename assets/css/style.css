@@ -78,12 +78,9 @@ nav ul li .active {
 }
 
 /* ABOUT */
-#aboutSneakerNews p {
+#aboutSneakerNews {
   line-height: 1.75rem;
   margin: 0 1rem 1rem 2rem;
-}
-#aboutSneakerNews img {
-  margin: 0.5rem;
 }
 
 /* NEWS */
