@@ -1,4 +1,4 @@
-/* Global */
+/* GLOBAL */
 /* Nav */
 nav {
   background-color: lightblue;
@@ -32,7 +32,7 @@ nav ul li .active {
   border-right: 1px black solid;
 }
 
-/* Nav Design */
+/* Nav Bottom Design */
 #navStripes {
   height: 2rem;
   background: repeating-linear-gradient(
@@ -42,4 +42,58 @@ nav ul li .active {
     #ffffff 1rem,
     #ffffff 1.5rem
   );
+}
+
+/* Footer */
+.footer {
+  background-color: palegreen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer img {
+  height: 2rem;
+  width: 2rem;
+  margin: 1rem 0.75rem;
+}
+
+/* INDEX */
+#upcomingDrops {
+  width: 90%;
+
+  margin: auto;
+}
+#neverOutOfStyle {
+  width: 90%;
+  margin: auto;
+
+  margin-bottom: 2rem;
+}
+.productBrand {
+  width: 11rem;
+  height: 13rem;
+
+  display: inline-block;
+  margin: 0 3rem;
+}
+
+/* ABOUT */
+#aboutSneakerNews p {
+  line-height: 1.75rem;
+  margin: 0 1rem 1rem 2rem;
+}
+#aboutSneakerNews img {
+  margin: 0.5rem;
+}
+
+/* NEWS */
+#newsSneakerNews {
+  line-height: 1.75rem;
+  margin: 0 1rem 1rem 2rem;
+}
+
+/* SELL */
+#sellSneakerNews {
+  line-height: 1.75rem;
+  margin: 0 1rem 1rem 2rem;
 }
